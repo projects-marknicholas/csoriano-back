@@ -26,7 +26,8 @@ app.use((req, res, next) => {
 
 
 app.use(cors({
-  origin: ' http://localhost:5173', 
+  // origin: ' http://localhost:5173', 
+  origin: 'https://csoriano.netlify.app/',
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'], 
   allowedHeaders: ['Content-Type', 'Authorization'], 
   credentials: true, 
